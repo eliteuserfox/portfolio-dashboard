@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updated_at_kst": "2026-08-03 23:32",
+    "updated_at_kst": "2026-08-03 23:48",
     "style": "규칙 기반 적극적 장기투자형",
     "history_rule": "같은 날짜는 가장 최근 시각 값으로 교체",
     "note": "대화에서 검증된 스냅샷만 누적",
-    "latest_total_note": "23:32 총자산 끝 두 자리 가림. 일간 숫자 차트는 21:45 마지막 정확값 유지."
+    "latest_total_note": "23:48 스크린샷에서 총자산 정확값 확인"
   },
   "daily": [
     {
@@ -121,23 +121,23 @@
     },
     {
       "date": "2026-08-03",
-      "total": 48999384,
-      "profit": 6765285,
-      "principal": 42234099,
-      "return": 16.0,
-      "score": 81
+      "total": 49401951,
+      "profit": 6962709,
+      "principal": 42439242,
+      "return": 16.4,
+      "score": 82
     }
   ],
   "latest": {
     "date": "2026-08-03",
-    "account_time_kst": "23:32",
-    "market_time_kst": "23:32",
+    "account_time_kst": "23:48",
+    "market_time_kst": "23:48",
     "new_screenshot": true,
     "same_date_replaced": true,
-    "total_assets_krw": null,
-    "estimated_principal_krw": null,
-    "unrealized_profit_krw": 6949226,
-    "return_pct": 16.3,
+    "total_assets_krw": 49401951,
+    "estimated_principal_krw": 42439242,
+    "unrealized_profit_krw": 6962709,
+    "return_pct": 16.4,
     "cash": {
       "krw": 864,
       "usd": 765.71
@@ -162,11 +162,11 @@
       "overall": 82,
       "korea": 77,
       "overseas": 87,
-      "risk": 78,
+      "risk": 79,
       "diversification": 81,
       "buy": 76,
       "cushion": 84,
-      "auto": 88
+      "auto": 90
     },
     "market": {
       "kospi": "6,257.45",
@@ -192,9 +192,9 @@
       {
         "name": "알파벳 A",
         "qty": "10.704886주",
-        "value": 5637245,
-        "profit": 3140219,
-        "return": 125.7,
+        "value": 5645064,
+        "profit": 3148038,
+        "return": 126.0,
         "role": "성장",
         "rule": "논리 훼손 전까지 장기 보유"
       },
@@ -228,8 +228,8 @@
       {
         "name": "SPY",
         "qty": "3.822416주",
-        "value": 4128163,
-        "profit": 74675,
+        "value": 4130188,
+        "profit": 76700,
         "return": 1.8,
         "role": "코어",
         "rule": "핵심 코어 유지"
@@ -246,27 +246,27 @@
       {
         "name": "아마존",
         "qty": "8.635833주",
-        "value": 3534216,
-        "profit": 986582,
-        "return": 38.7,
+        "value": 3527661,
+        "profit": 980027,
+        "return": 38.4,
         "role": "성장",
         "rule": "장기 보유, 과대비중 시 일부 차익"
       },
       {
         "name": "SCHD",
         "qty": "49.16439주",
-        "value": 2361066,
-        "profit": -55078,
-        "return": -2.2,
+        "value": 2358249,
+        "profit": -57895,
+        "return": -2.3,
         "role": "코어",
         "rule": "배당 코어 유지"
       },
       {
         "name": "엔비디아",
         "qty": "7.740907주",
-        "value": 2276232,
-        "profit": 742776,
-        "return": 48.4,
+        "value": 2283217,
+        "profit": 749761,
+        "return": 48.8,
         "role": "성장",
         "rule": "자동매수 유지, 수동 추격 금지"
       },
@@ -282,8 +282,8 @@
       {
         "name": "넥스트에라 에너지",
         "qty": "13.026177주",
-        "value": 1610574,
-        "profit": 73845,
+        "value": 1611507,
+        "profit": 74778,
         "return": 4.8,
         "role": "방어",
         "rule": "전력·유틸리티 장기 보유"
@@ -291,8 +291,8 @@
       {
         "name": "애플",
         "qty": "3.630143주",
-        "value": 1588540,
-        "profit": 536273,
+        "value": 1588384,
+        "profit": 536117,
         "return": 50.9,
         "role": "성장",
         "rule": "장기 보유"
@@ -327,8 +327,8 @@
       {
         "name": "코카콜라",
         "qty": "11.056338주",
-        "value": 1376816,
-        "profit": 244393,
+        "value": 1376341,
+        "profit": 243918,
         "return": 21.5,
         "role": "방어",
         "rule": "소비 방어축 유지"
@@ -336,18 +336,18 @@
       {
         "name": "맥도날드",
         "qty": "2.277002주",
-        "value": 885673,
-        "profit": -5804,
-        "return": -0.6,
+        "value": 883880,
+        "profit": -7597,
+        "return": -0.8,
         "role": "방어",
         "rule": "소비 방어축 유지"
       },
       {
         "name": "테슬라",
         "qty": "1.853513주",
-        "value": 844834,
-        "profit": 51582,
-        "return": 6.5,
+        "value": 850913,
+        "profit": 57661,
+        "return": 7.2,
         "role": "위성",
         "rule": "작은 비중 자동매수만"
       },
@@ -363,18 +363,18 @@
       {
         "name": "IBM",
         "qty": "0.488374주",
-        "value": 157583,
-        "profit": -26447,
-        "return": -14.3,
+        "value": 157926,
+        "profit": -26104,
+        "return": -14.1,
         "role": "위성",
         "rule": "양자 위성 비중 유지"
       },
       {
         "name": "GLDM",
         "qty": "1.217037주",
-        "value": 138966,
-        "profit": -7026,
-        "return": -4.8,
+        "value": 139036,
+        "profit": -6956,
+        "return": -4.7,
         "role": "방어",
         "rule": "금 방어축 유지"
       },
@@ -408,9 +408,9 @@
       {
         "name": "XLV",
         "qty": "0.623329주",
-        "value": 144535,
-        "profit": -2410,
-        "return": -1.6,
+        "value": 144240,
+        "profit": -2705,
+        "return": -1.8,
         "role": "방어",
         "rule": "최신 스크린샷 기준"
       }
@@ -418,86 +418,106 @@
     "auto_buys": [
       [
         "SPY",
-        "15,000원/일",
-        92
+        "20,000원/일",
+        94
       ],
       [
         "SCHD",
         "10,000원/일",
-        91
+        92
       ],
       [
-        "NVDA",
-        "4,000원/일",
+        "아마존",
+        "5,000원/일",
         86
       ],
       [
-        "AMZN",
+        "넥스트에라 에너지",
         "4,000원/일",
-        84
-      ],
-      [
-        "NEE",
-        "4,000원/일",
-        82
-      ],
-      [
-        "SpaceX",
-        "4,000원/일",
-        72
-      ],
-      [
-        "TSLA",
-        "2,000원/일",
-        70
-      ],
-      [
-        "AAPL",
-        "2,000원/일",
         83
       ],
       [
-        "COST",
-        "2,000원/일",
+        "알파벳 A",
+        "3,000원/일",
+        88
+      ],
+      [
+        "애플",
+        "3,000원/일",
+        85
+      ],
+      [
+        "엔비디아",
+        "3,000원/일",
+        88
+      ],
+      [
+        "XLV",
+        "3,000원/일",
+        90
+      ],
+      [
+        "맥도날드",
+        "3,000원/일",
         80
       ],
       [
-        "MSFT",
+        "코카콜라",
+        "3,000원/일",
+        82
+      ],
+      [
+        "테슬라",
         "2,000원/일",
-        88
+        72
       ],
       [
         "IBM",
         "2,000원/일",
-        76
-      ],
-      [
-        "SOL AI반도체TOP2플러스",
-        "월 2회",
-        78
-      ],
-      [
-        "ACE KRX금현물",
-        "월 2회",
-        85
-      ],
-      [
-        "LS ELECTRIC",
-        "월 1주",
         75
       ],
       [
+        "GLDM",
+        "2,000원/일",
+        87
+      ],
+      [
         "한국콜마",
-        "월 1주",
-        77
+        "1주/매월 24일",
+        78
+      ],
+      [
+        "두산에너빌리티",
+        "1주/매월 23일",
+        70
+      ],
+      [
+        "LS ELECTRIC",
+        "1주/매월 24일",
+        76
       ],
       [
         "SK텔레콤",
-        "월 1주",
-        81
+        "1주/매월 22일",
+        82
+      ],
+      [
+        "SOL 조선TOP3플러스",
+        "1주/매월 23일",
+        73
+      ],
+      [
+        "KODEX 로봇액티브",
+        "1주/매월 26일",
+        74
+      ],
+      [
+        "KODEX 전고체배터리ESS TOP2플러스",
+        "1주/매월 23일",
+        68
       ]
     ],
-    "total_assets_display": "49,388,6??원",
+    "total_assets_display": "49,401,951원",
     "total_assets_note": "스크린샷에서 끝 두 자리가 가려져 정확한 값 확인 불가",
     "estimated_principal_note": "총자산 정확값이 가려져 계산 불가",
     "previous_exact_snapshot": {
@@ -505,16 +525,12 @@
       "total_assets_krw": 48999384,
       "unrealized_profit_krw": 6765285,
       "estimated_principal_krw": 42234099
+    },
+    "auto_buy_summary": {
+      "confirmed_daily_total_krw": 63000,
+      "monthly_estimate_21_business_days_krw": 1323000,
+      "monthly_share_orders": 7,
+      "note": "스크린샷에서 확인된 자동매수만 반영"
     }
-  },
-  "intraday_latest": {
-    "date": "2026-08-03",
-    "time": "23:32",
-    "total_assets_display": "49,388,6??원",
-    "total_assets_krw": null,
-    "unrealized_profit_krw": 6949226,
-    "return_pct": 16.3,
-    "cash_krw": 864,
-    "cash_usd": 765.71
   }
 }
