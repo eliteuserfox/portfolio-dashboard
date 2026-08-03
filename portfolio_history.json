@@ -1,8 +1,9 @@
 {
   "meta": {
-    "updated_at_kst": "2026-08-03 18:08",
+    "updated_at_kst": "2026-08-03 21:45",
     "style": "규칙 기반 적극적 장기투자형",
-    "note": "대화에서 검증된 기록으로 재구성"
+    "history_rule": "같은 날짜는 가장 최근 시각 값으로 교체",
+    "note": "대화에서 검증된 스냅샷만 누적"
   },
   "daily": [
     {
@@ -119,110 +120,289 @@
     },
     {
       "date": "2026-08-03",
-      "total": 49160297,
-      "profit": 6927744,
-      "principal": 42232553,
-      "return": 16.4,
-      "score": 82
+      "total": 48999384,
+      "profit": 6765285,
+      "principal": 42234099,
+      "return": 16.0,
+      "score": 81
     }
   ],
   "latest": {
     "date": "2026-08-03",
-    "account_time_kst": "17:29",
-    "market_time_kst": "18:00",
+    "account_time_kst": "21:45",
+    "market_time_kst": "21:45",
     "new_screenshot": true,
-    "total_assets_krw": 49160297,
-    "estimated_principal_krw": 42232553,
-    "unrealized_profit_krw": 6927744,
-    "return_pct": 16.4,
+    "same_date_replaced": true,
+    "total_assets_krw": 48999384,
+    "estimated_principal_krw": 42234099,
+    "unrealized_profit_krw": 6765285,
+    "return_pct": 16.0,
     "cash": {
       "krw": 864,
-      "usd": 809.47
+      "usd": 765.71
     },
-    "pending_orders": [
-      {
-        "symbol": "XLV",
-        "amount_krw": 145433,
-        "side": "buy",
-        "status": "pending"
-      }
-    ],
+    "pending_orders": {
+      "count": 14,
+      "market": "해외주식",
+      "details": "개별 주문금액은 스크린샷에서 확인 불가"
+    },
+    "previous_same_day": {
+      "time": "17:29",
+      "total": 49160297,
+      "profit": 6927744,
+      "principal": 42232553
+    },
+    "same_day_change": {
+      "total": -160913,
+      "profit": -162459,
+      "principal": 1546
+    },
     "scores": {
-      "overall": 82,
-      "korea": 78,
-      "overseas": 87,
-      "risk": 80,
-      "diversification": 79,
-      "buy": 74,
-      "cushion": 84,
-      "auto": 89
+      "overall": 81,
+      "korea": 77,
+      "overseas": 86,
+      "risk": 78,
+      "diversification": 80,
+      "buy": 76,
+      "cushion": 83,
+      "auto": 88
     },
     "market": {
       "kospi": "6,257.45",
       "kospi_pct": "-5.12%",
       "kosdaq": "737.35",
       "kosdaq_pct": "+2.44%",
-      "usdkrw": "1,429.8원",
-      "sp500_futures": "+0.6%",
-      "nasdaq_futures": "+0.8%",
-      "us10y": "4.70% 하회",
-      "wti": "$80 하회",
-      "brent": "$83.88",
-      "gold": "확인 불가",
-      "copper": "확인 불가",
-      "dxy": "확인 불가",
-      "korea10y": "확인 불가",
-      "vix": "확인 불가"
+      "usdkrw": "1,430.23원",
+      "usdkrw_pct": "-0.2%",
+      "nasdaq": "25,373.85",
+      "nasdaq_pct": "+1.0%",
+      "nasdaq100_futures": "28,488.50",
+      "futures_note": "화면 상단 표시값, 전체 소수점 확인 불가",
+      "us10y": "약 4.69%",
+      "wti": "약 $79대",
+      "brent": "약 $83대",
+      "gold": "동일 시점 확인 불가",
+      "copper": "동일 시점 확인 불가",
+      "dxy": "동일 시점 확인 불가",
+      "korea10y": "동일 시점 확인 불가",
+      "vix": "동일 시점 확인 불가"
     },
     "holdings": [
       {
-        "name": "삼성전자",
-        "qty": "24주",
-        "value": 5771315,
-        "role": "성장",
-        "rule": "장기 보유, 과대비중만 분할 축소"
-      },
-      {
         "name": "알파벳 A",
         "qty": "10.699322주",
-        "value": 5515866,
+        "value": 5567965,
+        "profit": 3073920,
+        "return": 123.2,
         "role": "성장",
         "rule": "논리 훼손 전까지 장기 보유"
       },
       {
+        "name": "삼성전자",
+        "qty": "24주",
+        "value": 5591702,
+        "profit": 919192,
+        "return": 19.6,
+        "role": "성장",
+        "rule": "장기 보유, 과대비중만 분할 축소"
+      },
+      {
         "name": "SK하이닉스",
         "qty": "3주",
-        "value": 4756651,
+        "value": 4553090,
+        "profit": 3859766,
+        "return": 556.7,
         "role": "성장",
-        "rule": "AI 메모리 수요 유지, 급등 추격 금지"
+        "rule": "장기 보유, 급등 추격 금지"
+      },
+      {
+        "name": "LS ELECTRIC",
+        "qty": "23주",
+        "value": 4185975,
+        "profit": -1032725,
+        "return": -19.7,
+        "role": "성장",
+        "rule": "비중 재점검, 추가매수 속도 조절"
       },
       {
         "name": "SPY",
         "qty": "3.803973주",
-        "value": 4091399,
+        "value": 4091454,
+        "profit": 57892,
+        "return": 1.4,
         "role": "코어",
         "rule": "핵심 코어 유지"
       },
       {
+        "name": "한화에어로스페이스",
+        "qty": "4주",
+        "value": 3612217,
+        "profit": -653783,
+        "return": -15.3,
+        "role": "위성",
+        "rule": "우주·방산 위성 비중 유지"
+      },
+      {
         "name": "아마존",
         "qty": "8.623601주",
-        "value": 3411386,
+        "value": 3428554,
+        "profit": 885908,
+        "return": 34.8,
         "role": "성장",
         "rule": "장기 보유, 과대비중 시 일부 차익"
       },
       {
         "name": "SCHD",
         "qty": "48.95742주",
-        "value": 2347613,
+        "value": 2359532,
+        "profit": -46649,
+        "return": -1.9,
         "role": "코어",
         "rule": "배당 코어 유지"
       },
       {
         "name": "엔비디아",
         "qty": "7.730479주",
-        "value": 2244159,
+        "value": 2199653,
+        "profit": 669178,
+        "return": 43.7,
         "role": "성장",
-        "rule": "자동매수 유지, 급등 시 수동추격 금지"
+        "rule": "자동매수 유지, 수동 추격 금지"
+      },
+      {
+        "name": "POSCO홀딩스",
+        "qty": "6주",
+        "value": 1795853,
+        "profit": -367005,
+        "return": -16.9,
+        "role": "위성",
+        "rule": "2차전지 반등 시 단계적 축소"
+      },
+      {
+        "name": "넥스트에라 에너지",
+        "qty": "12.994063주",
+        "value": 1627073,
+        "profit": 94329,
+        "return": 6.1,
+        "role": "방어",
+        "rule": "전력·유틸리티 장기 보유"
+      },
+      {
+        "name": "애플",
+        "qty": "3.623376주",
+        "value": 1612096,
+        "profit": 562810,
+        "return": 53.6,
+        "role": "성장",
+        "rule": "장기 보유"
+      },
+      {
+        "name": "SK텔레콤",
+        "qty": "19주",
+        "value": 1531858,
+        "profit": -70250,
+        "return": -4.3,
+        "role": "방어",
+        "rule": "배당·통신 방어축 유지"
+      },
+      {
+        "name": "포스코퓨처엠",
+        "qty": "11주",
+        "value": 1464974,
+        "profit": -1411350,
+        "return": -49.0,
+        "role": "위성",
+        "rule": "조건부 매도, 수동 물타기 금지"
+      },
+      {
+        "name": "한국콜마",
+        "qty": "15주",
+        "value": 1427850,
+        "profit": 29850,
+        "return": 2.1,
+        "role": "성장",
+        "rule": "K뷰티 장기 Thesis 점검"
+      },
+      {
+        "name": "코카콜라",
+        "qty": "11.032553주",
+        "value": 1390759,
+        "profit": 261317,
+        "return": 23.1,
+        "role": "방어",
+        "rule": "소비 방어축 유지"
+      },
+      {
+        "name": "맥도날드",
+        "qty": "2.26938주",
+        "value": 898047,
+        "profit": 9550,
+        "return": 1.0,
+        "role": "방어",
+        "rule": "소비 방어축 유지"
+      },
+      {
+        "name": "테슬라",
+        "qty": "1.849125주",
+        "value": 828374,
+        "profit": 37114,
+        "return": 4.6,
+        "role": "위성",
+        "rule": "작은 비중 자동매수만"
+      },
+      {
+        "name": "두산에너빌리티",
+        "qty": "4주",
+        "value": 265000,
+        "profit": -36300,
+        "return": -12.0,
+        "role": "위성",
+        "rule": "추가매수보다 반등 확인"
+      },
+      {
+        "name": "IBM",
+        "qty": "0.482209주",
+        "value": 157781,
+        "profit": -24257,
+        "return": -13.3,
+        "role": "위성",
+        "rule": "양자 위성 비중 유지"
+      },
+      {
+        "name": "GLDM",
+        "qty": "1.199619주",
+        "value": 137406,
+        "profit": -6594,
+        "return": -4.5,
+        "role": "방어",
+        "rule": "금 방어축 유지"
+      },
+      {
+        "name": "KODEX 로봇액티브",
+        "qty": "4주",
+        "value": 115773,
+        "profit": -17897,
+        "return": -13.3,
+        "role": "위성",
+        "rule": "국내 테마 ETF 월 1주 원칙"
+      },
+      {
+        "name": "KODEX 전고체배터리 ESS TOP2플러스",
+        "qty": "15주",
+        "value": 99871,
+        "profit": -24099,
+        "return": -19.4,
+        "role": "위성",
+        "rule": "수동 물타기 금지"
+      },
+      {
+        "name": "SOL 조선TOP3플러스",
+        "qty": "2주",
+        "value": 54722,
+        "profit": -4888,
+        "return": -8.1,
+        "role": "위성",
+        "rule": "국내 테마 ETF 월 1주 원칙"
       }
     ],
     "auto_buys": [
@@ -294,7 +474,7 @@
       [
         "LS ELECTRIC",
         "월 1주",
-        79
+        75
       ],
       [
         "한국콜마",
