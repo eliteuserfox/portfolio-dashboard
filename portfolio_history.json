@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "updated_at_kst": "2026-08-03 18:08",
+    "style": "규칙 기반 적극적 장기투자형",
+    "note": "대화에서 검증된 기록으로 재구성"
+  },
+  "daily": [
+    {
+      "date": "2026-06-12",
+      "total": 52698104,
+      "profit": 18807356,
+      "principal": 33890748,
+      "return": 55.4,
+      "score": 79
+    },
+    {
+      "date": "2026-06-15",
+      "total": 54329963,
+      "profit": 20515582,
+      "principal": 33814381,
+      "return": 60.6,
+      "score": 80
+    },
+    {
+      "date": "2026-06-16",
+      "total": 54921369,
+      "profit": 20826824,
+      "principal": 34094545,
+      "return": 61.0,
+      "score": 80
+    },
+    {
+      "date": "2026-06-17",
+      "total": 55959750,
+      "profit": 21119097,
+      "principal": 34840653,
+      "return": 60.6,
+      "score": 81
+    },
+    {
+      "date": "2026-06-18",
+      "total": 56182096,
+      "profit": 21472459,
+      "principal": 34709637,
+      "return": 61.8,
+      "score": 82
+    },
+    {
+      "date": "2026-06-19",
+      "total": 57433741,
+      "profit": 22444546,
+      "principal": 34989195,
+      "return": 64.1,
+      "score": 83
+    },
+    {
+      "date": "2026-06-20",
+      "total": 57201149,
+      "profit": 21767904,
+      "principal": 35433245,
+      "return": 61.4,
+      "score": 82
+    },
+    {
+      "date": "2026-06-22",
+      "total": 57563880,
+      "profit": 22074285,
+      "principal": 35489595,
+      "return": 62.1,
+      "score": 83
+    },
+    {
+      "date": "2026-06-23",
+      "total": 53280154,
+      "profit": 18246760,
+      "principal": 35033394,
+      "return": 52.0,
+      "score": 79
+    },
+    {
+      "date": "2026-06-24",
+      "total": 56771409,
+      "profit": 19099015,
+      "principal": 37672394,
+      "return": 50.6,
+      "score": 80
+    },
+    {
+      "date": "2026-06-25",
+      "total": 57635620,
+      "profit": 19906112,
+      "principal": 37729508,
+      "return": 52.7,
+      "score": 81
+    },
+    {
+      "date": "2026-06-26",
+      "total": 56174480,
+      "profit": 17874291,
+      "principal": 38300189,
+      "return": 46.6,
+      "score": 79
+    },
+    {
+      "date": "2026-07-01",
+      "total": 57506045,
+      "profit": 19779167,
+      "principal": 37726878,
+      "return": 52.4,
+      "score": 82
+    },
+    {
+      "date": "2026-07-03",
+      "total": 55454739,
+      "profit": 17051007,
+      "principal": 38403732,
+      "return": 44.3,
+      "score": 80
+    },
+    {
+      "date": "2026-08-03",
+      "total": 49160297,
+      "profit": 6927744,
+      "principal": 42232553,
+      "return": 16.4,
+      "score": 82
+    }
+  ],
+  "latest": {
+    "date": "2026-08-03",
+    "account_time_kst": "17:29",
+    "market_time_kst": "18:00",
+    "new_screenshot": true,
+    "total_assets_krw": 49160297,
+    "estimated_principal_krw": 42232553,
+    "unrealized_profit_krw": 6927744,
+    "return_pct": 16.4,
+    "cash": {
+      "krw": 864,
+      "usd": 809.47
+    },
+    "pending_orders": [
+      {
+        "symbol": "XLV",
+        "amount_krw": 145433,
+        "side": "buy",
+        "status": "pending"
+      }
+    ],
+    "scores": {
+      "overall": 82,
+      "korea": 78,
+      "overseas": 87,
+      "risk": 80,
+      "diversification": 79,
+      "buy": 74,
+      "cushion": 84,
+      "auto": 89
+    },
+    "market": {
+      "kospi": "6,257.45",
+      "kospi_pct": "-5.12%",
+      "kosdaq": "737.35",
+      "kosdaq_pct": "+2.44%",
+      "usdkrw": "1,429.8원",
+      "sp500_futures": "+0.6%",
+      "nasdaq_futures": "+0.8%",
+      "us10y": "4.70% 하회",
+      "wti": "$80 하회",
+      "brent": "$83.88",
+      "gold": "확인 불가",
+      "copper": "확인 불가",
+      "dxy": "확인 불가",
+      "korea10y": "확인 불가",
+      "vix": "확인 불가"
+    },
+    "holdings": [
+      {
+        "name": "삼성전자",
+        "qty": "24주",
+        "value": 5771315,
+        "role": "성장",
+        "rule": "장기 보유, 과대비중만 분할 축소"
+      },
+      {
+        "name": "알파벳 A",
+        "qty": "10.699322주",
+        "value": 5515866,
+        "role": "성장",
+        "rule": "논리 훼손 전까지 장기 보유"
+      },
+      {
+        "name": "SK하이닉스",
+        "qty": "3주",
+        "value": 4756651,
+        "role": "성장",
+        "rule": "AI 메모리 수요 유지, 급등 추격 금지"
+      },
+      {
+        "name": "SPY",
+        "qty": "3.803973주",
+        "value": 4091399,
+        "role": "코어",
+        "rule": "핵심 코어 유지"
+      },
+      {
+        "name": "아마존",
+        "qty": "8.623601주",
+        "value": 3411386,
+        "role": "성장",
+        "rule": "장기 보유, 과대비중 시 일부 차익"
+      },
+      {
+        "name": "SCHD",
+        "qty": "48.95742주",
+        "value": 2347613,
+        "role": "코어",
+        "rule": "배당 코어 유지"
+      },
+      {
+        "name": "엔비디아",
+        "qty": "7.730479주",
+        "value": 2244159,
+        "role": "성장",
+        "rule": "자동매수 유지, 급등 시 수동추격 금지"
+      }
+    ],
+    "auto_buys": [
+      [
+        "SPY",
+        "15,000원/일",
+        92
+      ],
+      [
+        "SCHD",
+        "10,000원/일",
+        91
+      ],
+      [
+        "NVDA",
+        "4,000원/일",
+        86
+      ],
+      [
+        "AMZN",
+        "4,000원/일",
+        84
+      ],
+      [
+        "NEE",
+        "4,000원/일",
+        82
+      ],
+      [
+        "SpaceX",
+        "4,000원/일",
+        72
+      ],
+      [
+        "TSLA",
+        "2,000원/일",
+        70
+      ],
+      [
+        "AAPL",
+        "2,000원/일",
+        83
+      ],
+      [
+        "COST",
+        "2,000원/일",
+        80
+      ],
+      [
+        "MSFT",
+        "2,000원/일",
+        88
+      ],
+      [
+        "IBM",
+        "2,000원/일",
+        76
+      ],
+      [
+        "SOL AI반도체TOP2플러스",
+        "월 2회",
+        78
+      ],
+      [
+        "ACE KRX금현물",
+        "월 2회",
+        85
+      ],
+      [
+        "LS ELECTRIC",
+        "월 1주",
+        79
+      ],
+      [
+        "한국콜마",
+        "월 1주",
+        77
+      ],
+      [
+        "SK텔레콤",
+        "월 1주",
+        81
+      ]
+    ]
+  }
+}
