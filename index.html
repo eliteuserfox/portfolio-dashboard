@@ -1,83 +1,33 @@
-<!doctype html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<title>장마감 포트폴리오 대시보드</title>
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<meta http-equiv='Cache-Control' content='no-cache, no-store, must-revalidate'><title>장마감 포트폴리오 대시보드</title>
 <style>
-body{margin:0;background:#0b1020;color:#f6f8ff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-main{max-width:1040px;margin:auto;padding:16px}.hero,.card{background:linear-gradient(180deg,#17213a,#10182b);border:1px solid #293653;border-radius:22px;padding:20px;margin-bottom:14px}
-h1{font-size:30px;margin:8px 0}.muted{color:#9aa8c2}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.metric b{display:block;color:#9aa8c2;font-size:13px}.metric strong{font-size:26px;display:block;margin-top:7px}.pos{color:#5bd5a0}.neg{color:#ff7c86}
-.scoregrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.score{background:#0b1222;border:1px solid #293653;border-radius:14px;padding:13px}.score strong{font-size:28px}
-table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #293653;text-align:left}small{color:#9aa8c2}.quote{font-size:20px;font-weight:800;border-left:4px solid #7aa2ff;padding-left:13px}
-@media(max-width:760px){.grid,.scoregrid{grid-template-columns:1fr 1fr}h1{font-size:25px}.metric strong{font-size:21px}}
-</style>
-</head>
-<body><main>
-<section class="hero">
-<div class="muted">PORTFOLIO CLOSE DASHBOARD</div>
-<h1>규칙 기반 적극적 장기투자형</h1>
-<p class="muted">코어-위성 복리형 · 자동매수 중심 · 5~10년 장기 시계열</p>
-<p class="quote">좋은 기업은 오래 보유하고, 나쁜 비중은 천천히 줄인다.</p>
-<small>2026-08-04 17:17 KST 최신 스크린샷 반영</small>
+:root{--bg:#080c18;--card:#11182a;--line:#26324d;--text:#f5f7ff;--muted:#9ba8c3;--pos:#59d89c;--neg:#ff7f87}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#18223c,#080c18 38%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+main{max-width:1120px;margin:auto;padding:16px}.hero,.card{background:linear-gradient(180deg,#17213a,#10182b);border:1px solid var(--line);border-radius:22px;padding:20px;margin-bottom:14px}
+h1{font-size:31px;margin:8px 0}h2{font-size:21px;margin:0 0 14px}.muted,small{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.metric b{display:block;color:var(--muted);font-size:13px}.metric strong{display:block;font-size:27px;margin:8px 0}.pos{color:var(--pos)}.neg{color:var(--neg)}
+.scoregrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.score{border:1px solid var(--line);background:#0c1221;border-radius:15px;padding:13px}.score div{display:flex;justify-content:space-between}.score strong{font-size:30px}.score p{font-size:13px;color:var(--muted);line-height:1.45}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:11px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{font-size:12px;color:var(--muted)}.tablewrap{overflow:auto}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.quote{font-size:20px;font-weight:800;border-left:4px solid #7aa2ff;padding-left:13px}
+details{border-top:1px solid var(--line);padding:13px 0}summary{font-weight:800}li{margin:7px 0}@media(max-width:760px){.grid,.scoregrid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}h1{font-size:25px}.metric strong{font-size:21px}}
+</style></head><body><main>
+<section class='hero'><div class='muted'>PORTFOLIO CLOSE DASHBOARD</div><h1>규칙 기반 적극적 장기투자형</h1><p class='muted'>코어-위성 복리형 · 자동매수 중심 · 5~10년 장기 시계열</p><p class='quote'>좋은 기업은 오래 보유하고, 나쁜 비중은 천천히 줄인다.</p><small>2026-08-04 17:17 KST 최신 스크린샷 반영</small></section>
+<section class='grid'>
+<div class='card metric'><b>총자산</b><strong>46,897,437원</strong><span class='neg'>-2,504,514원</span><small>8월 3일 대비</small></div>
+<div class='card metric'><b>평가이익</b><strong class='pos'>+8,985,679원</strong><span class='pos'>+2,022,970원</span><small>수익률 23.7% · +7.3%p</small></div>
+<div class='card metric'><b>추정 원금</b><strong>37,911,758원</strong><span class='neg'>-4,527,484원</span><small>매도대금·원금 이동과 시장손익 분리</small></div>
+<div class='card metric'><b>현금</b><strong>₩3,835,691</strong><span>$765.71</span><small>대기주문 확인 불가</small></div>
 </section>
-
-<section class="grid">
-<div class="card metric"><b>총자산</b><strong>46,897,437원</strong><small>전일 대비 -2,504,514원</small></div>
-<div class="card metric"><b>평가이익</b><strong class="pos">+8,985,679원</strong><small>수익률 +23.7%</small></div>
-<div class="card metric"><b>추정 원금</b><strong>37,911,758원</strong><small>총자산-평가이익 기준</small></div>
-<div class="card metric"><b>현금</b><strong>₩3,835,691</strong><small>$765.71 · 대기주문 확인 불가</small></div>
-</section>
-
-<section class="card">
-<h2>포트폴리오 점수</h2>
-<div class="scoregrid">
-<div class="score"><span>종합 ▲2</span><strong>84</strong><small>반도체 회복·현금 여력 개선</small></div>
-<div class="score"><span>국내 ▲3</span><strong>80</strong><small>삼성·하이닉스·LS 회복</small></div>
-<div class="score"><span>해외 ▲1</span><strong>88</strong><small>SPY·알파벳·엔비디아 중심</small></div>
-<div class="score"><span>리스크 ▲3</span><strong>82</strong><small>현금 증가, 손실 확정은 감점</small></div>
-<div class="score"><span>분산도 ▲1</span><strong>83</strong><small>반도체 현재가치 집중</small></div>
-<div class="score"><span>추가매수 ▲2</span><strong>76</strong><small>코어 적립 우선</small></div>
-<div class="score"><span>원가 쿠션 ▲4</span><strong>86</strong><small>하이닉스·알파벳 수익 쿠션</small></div>
-<div class="score"><span>자동매수 ▲1</span><strong>91</strong><small>SPY·SCHD 중심 구조</small></div>
-</div>
-</section>
-
-<section class="card">
-<h2>오늘 달라진 점</h2>
-<ul>
-<li>총자산은 전일보다 줄었지만 평가이익은 증가했다.</li>
-<li>한화에어로스페이스 4주는 925,000원에 전량 매도됐다.</li>
-<li>해당 매도는 차익실현이 아니라 손실 확정 비중 축소다.</li>
-<li>삼성전자·SK하이닉스·LS ELECTRIC이 강하게 회복했다.</li>
-<li>포스코퓨처엠은 10주로 감소했지만 체결가는 확인 불가다.</li>
-</ul>
-</section>
-
-<section class="card">
-<h2>오늘 행동 원칙</h2>
-<ul>
-<li>반도체 급등을 따라 수동 추격매수하지 않는다.</li>
-<li>SPY·SCHD·XLV·GLDM 자동매수는 유지한다.</li>
-<li>2차전지는 수동 물타기하지 않는다.</li>
-<li>LS ELECTRIC은 손실률보다 비중을 먼저 확인한다.</li>
-<li>현금은 조정장 대응용으로 남긴다.</li>
-</ul>
-</section>
-
-<section class="card">
-<h2>히스토리</h2>
-<table><thead><tr><th>날짜</th><th>총자산</th><th>추정 원금</th><th>평가이익</th><th>수익률</th><th>점수</th></tr></thead>
-<tbody>
-<tr><td>2026-08-04</td><td>46,897,437원</td><td>37,911,758원</td><td class="pos">+8,985,679원</td><td>23.7%</td><td>84</td></tr>
-<tr><td>2026-08-03</td><td>49,401,951원</td><td>42,439,242원</td><td class="pos">+6,962,709원</td><td>16.4%</td><td>82</td></tr>
-<tr><td>2026-07-03</td><td>55,454,739원</td><td>38,403,732원</td><td class="pos">+17,051,007원</td><td>44.3%</td><td>80</td></tr>
-<tr><td>2026-06-12</td><td>52,698,104원</td><td>33,890,748원</td><td class="pos">+18,807,356원</td><td>55.4%</td><td>79</td></tr>
-</tbody></table>
-</section>
-
-<footer class="muted">ZIP 압축 해제 후 GitHub 저장소 최상단에 전체 업로드하고 Commit하면 같은 Pages 주소가 갱신됩니다.</footer>
+<section class='card'><h2>오늘 달라진 점</h2><ol><li>총자산은 감소했지만 평가이익은 증가했다.</li><li>삼성전자·SK하이닉스·LS ELECTRIC이 강하게 회복했다.</li><li>한화에어로스페이스 4주는 925,000원에 전량 매도됐다.</li><li>해당 매도는 차익실현이 아니라 손실 확정 비중 축소다.</li><li>포스코퓨처엠은 10주로 감소했지만 체결가는 확인 불가다.</li></ol></section>
+<section class='card'><h2>포트폴리오 점수와 근거</h2><div class='scoregrid'><div class='score'><div><b>종합</b><span class='pos'>▲ 2</span></div><strong>84</strong><p>반도체·AI 회복과 현금 여력 개선. 한화에어로 손실 확정·2차전지 손실은 감점.</p></div><div class='score'><div><b>국내</b><span class='pos'>▲ 3</span></div><strong>80</strong><p>삼성전자·SK하이닉스·LS ELECTRIC 회복. 2차전지 손실은 부담.</p></div><div class='score'><div><b>해외</b><span class='pos'>▲ 1</span></div><strong>88</strong><p>SPY·알파벳·엔비디아 중심 구조 양호. SCHD·IBM은 손실권.</p></div><div class='score'><div><b>리스크 관리</b><span class='pos'>▲ 3</span></div><strong>82</strong><p>원화 현금 383.6만원 확보. 손실 확정 과정은 감점.</p></div><div class='score'><div><b>분산도</b><span class='pos'>▲ 1</span></div><strong>83</strong><p>코어·성장·방어축은 갖췄으나 반도체 현재가치 집중.</p></div><div class='score'><div><b>추가매수 매력도</b><span class='pos'>▲ 2</span></div><strong>76</strong><p>SPY·SCHD·XLV·GLDM 적립 우선. 급등 반도체 추격매수 부적합.</p></div><div class='score'><div><b>원가 쿠션</b><span class='pos'>▲ 4</span></div><strong>86</strong><p>하이닉스·알파벳·엔비디아의 큰 수익 쿠션.</p></div><div class='score'><div><b>자동매수 적합도</b><span class='pos'>▲ 1</span></div><strong>91</strong><p>SPY·SCHD 코어가 명확하고 방어축도 보강됨.</p></div></div></section>
+<section class='card'><h2>주요 뉴스와 포트 영향</h2><div class='two'><article><h3>반도체·AI 강세</h3><p>국내 반도체와 미국 기술주가 포트폴리오 반등을 주도했다.</p><small>삼성전자·SK하이닉스·엔비디아·알파벳에 긍정.</small></article><article><h3>고금리·유가 변수</h3><p>미국 장기금리와 유가는 성장주 변동성을 높일 수 있다.</p><small>추격매수보다 자동매수 유지가 적절.</small></article></div></section>
+<section class='card'><h2>전체 보유종목</h2><div class='tablewrap'><table><thead><tr><th>종목</th><th>평가금·비중</th><th>손익</th><th>직전 변화</th><th>행동원칙</th></tr></thead><tbody><tr><td><b>삼성전자</b><small>24주 · 성장</small></td><td>5,807,237원<small>12.4%</small></td><td class='pos'>+1,134,727원<small>+24.2%</small></td><td class='pos'>+215,535원</td><td>장기보유·과대비중만 분할축소</td></tr><tr><td><b>알파벳 A</b><small>10.704886주 · 성장</small></td><td>5,649,453원<small>12.0%</small></td><td class='pos'>+3,152,427원<small>+126.2%</small></td><td class='pos'>+4,389원</td><td>장기보유·과대비중 점검</td></tr><tr><td><b>SK하이닉스</b><small>3주 · 성장</small></td><td>4,816,522원<small>10.3%</small></td><td class='pos'>+4,123,198원<small>+594.7%</small></td><td class='pos'>+263,432원</td><td>핵심 승자·추격매수 금지</td></tr><tr><td><b>LS ELECTRIC</b><small>23주 · 성장</small></td><td>4,527,939원<small>9.7%</small></td><td class='neg'>-690,761원<small>-13.2%</small></td><td class='pos'>+341,964원</td><td>비중 재점검·추가매수 서두르지 않기</td></tr><tr><td><b>SPY</b><small>3.822416주 · 코어</small></td><td>4,144,367원<small>8.8%</small></td><td class='pos'>+90,879원<small>+2.2%</small></td><td class='pos'>+14,179원</td><td>코어 유지·매일 적립</td></tr><tr><td><b>아마존</b><small>8.635833주 · 성장</small></td><td>3,445,773원<small>7.3%</small></td><td class='pos'>+898,139원<small>+35.2%</small></td><td class='neg'>-81,888원</td><td>자동매수 유지</td></tr><tr><td><b>SCHD</b><small>49.16439주 · 코어</small></td><td>2,354,265원<small>5.0%</small></td><td class='neg'>-61,879원<small>-2.5%</small></td><td class='neg'>-3,984원</td><td>배당 코어 유지</td></tr><tr><td><b>엔비디아</b><small>7.740907주 · 성장</small></td><td>2,307,512원<small>4.9%</small></td><td class='pos'>+774,056원<small>+50.4%</small></td><td class='pos'>+24,295원</td><td>자동매수 유지</td></tr><tr><td><b>POSCO홀딩스</b><small>6주 · 위성</small></td><td>1,864,705원<small>4.0%</small></td><td class='neg'>-298,153원<small>-13.7%</small></td><td class='pos'>+68,852원</td><td>수동 물타기 금지</td></tr><tr><td><b>SK텔레콤</b><small>19주 · 방어</small></td><td>1,740,409원<small>3.7%</small></td><td class='pos'>+138,301원<small>+8.6%</small></td><td class='pos'>+208,551원</td><td>배당축 유지</td></tr><tr><td><b>넥스트에라 에너지</b><small>13.026177주 · 방어</small></td><td>1,611,440원<small>3.4%</small></td><td class='pos'>+74,711원<small>+4.8%</small></td><td class='neg'>-67원</td><td>자동매수 유지</td></tr><tr><td><b>애플</b><small>3.630143주 · 성장</small></td><td>1,574,173원<small>3.4%</small></td><td class='pos'>+521,906원<small>+49.5%</small></td><td class='neg'>-14,211원</td><td>장기보유</td></tr><tr><td><b>한국콜마</b><small>15주 · 성장</small></td><td>1,513,166원<small>3.2%</small></td><td class='pos'>+115,166원<small>+8.2%</small></td><td class='pos'>+85,316원</td><td>월 1주 원칙 유지</td></tr><tr><td><b>포스코퓨처엠</b><small>10주 · 위성</small></td><td>1,425,592원<small>3.0%</small></td><td class='neg'>-1,189,248원<small>-45.4%</small></td><td class='neg'>-39,382원</td><td>반등 시 조건부 단계매도</td></tr><tr><td><b>코카콜라</b><small>11.056338주 · 방어</small></td><td>1,369,628원<small>2.9%</small></td><td class='pos'>+237,205원<small>+20.9%</small></td><td class='neg'>-6,713원</td><td>자동매수 유지</td></tr><tr><td><b>맥도날드</b><small>2.277002주 · 방어</small></td><td>870,474원<small>1.9%</small></td><td class='neg'>-21,003원<small>-2.3%</small></td><td class='neg'>-13,406원</td><td>자동매수 유지</td></tr><tr><td><b>테슬라</b><small>1.853513주 · 위성</small></td><td>862,405원<small>1.8%</small></td><td class='pos'>+69,153원<small>+8.7%</small></td><td class='pos'>+11,492원</td><td>소액 자동매수만</td></tr><tr><td><b>두산에너빌리티</b><small>4주 · 위성</small></td><td>292,939원<small>0.6%</small></td><td class='neg'>-8,361원<small>-2.7%</small></td><td class='pos'>+27,939원</td><td>월 1주 한도</td></tr><tr><td><b>IBM</b><small>0.488374주 · 위성</small></td><td>156,598원<small>0.3%</small></td><td class='neg'>-27,432원<small>-14.9%</small></td><td class='neg'>-1,328원</td><td>소액만 유지</td></tr><tr><td><b>XLV</b><small>0.623329주 · 방어</small></td><td>144,731원<small>0.3%</small></td><td class='neg'>-2,214원<small>-1.5%</small></td><td class='pos'>+491원</td><td>헬스케어 방어축 적립</td></tr><tr><td><b>GLDM</b><small>1.217037주 · 방어</small></td><td>139,789원<small>0.3%</small></td><td class='neg'>-6,203원<small>-4.2%</small></td><td class='pos'>+753원</td><td>금 방어축 적립</td></tr><tr><td><b>KODEX 로봇액티브</b><small>4주 · 위성</small></td><td>120,072원<small>0.3%</small></td><td class='neg'>-13,598원<small>-10.1%</small></td><td class='pos'>+4,299원</td><td>월 1주 한도</td></tr><tr><td><b>KODEX 전고체배터리 ESS TOP2플러스</b><small>15주 · 위성</small></td><td>106,170원<small>0.2%</small></td><td class='neg'>-17,800원<small>-14.3%</small></td><td class='pos'>+6,299원</td><td>2차전지 물타기 금지</td></tr><tr><td><b>SOL 조선TOP3플러스</b><small>2주 · 위성</small></td><td>56,712원<small>0.1%</small></td><td class='neg'>-2,898원<small>-4.8%</small></td><td class='pos'>+1,990원</td><td>월 1주 한도</td></tr></tbody></table></div></section>
+<section class='card'><h2>자동매수</h2><div class='grid'><div class='metric'><b>일일 합계</b><strong>63,000원</strong></div><div class='metric'><b>월 21영업일</b><strong>1,323,000원</strong></div><div class='metric'><b>국내 월 1주</b><strong>7개</strong></div><div class='metric'><b>적합도</b><strong>91점</strong></div></div><details open><summary>전체 목록</summary><div class='tablewrap'><table><thead><tr><th>종목</th><th>설정</th><th>점수</th></tr></thead><tbody><tr><td>SPY</td><td>20,000원/일</td><td>95</td></tr><tr><td>SCHD</td><td>10,000원/일</td><td>93</td></tr><tr><td>아마존</td><td>5,000원/일</td><td>86</td></tr><tr><td>넥스트에라 에너지</td><td>4,000원/일</td><td>84</td></tr><tr><td>알파벳 A</td><td>3,000원/일</td><td>87</td></tr><tr><td>애플</td><td>3,000원/일</td><td>85</td></tr><tr><td>엔비디아</td><td>3,000원/일</td><td>86</td></tr><tr><td>XLV</td><td>3,000원/일</td><td>91</td></tr><tr><td>맥도날드</td><td>3,000원/일</td><td>80</td></tr><tr><td>코카콜라</td><td>3,000원/일</td><td>82</td></tr><tr><td>테슬라</td><td>2,000원/일</td><td>73</td></tr><tr><td>IBM</td><td>2,000원/일</td><td>72</td></tr><tr><td>GLDM</td><td>2,000원/일</td><td>89</td></tr><tr><td>한국콜마</td><td>1주/매월 24일</td><td>80</td></tr><tr><td>두산에너빌리티</td><td>1주/매월 23일</td><td>70</td></tr><tr><td>LS ELECTRIC</td><td>1주/매월 24일</td><td>74</td></tr><tr><td>SK텔레콤</td><td>1주/매월 22일</td><td>84</td></tr><tr><td>SOL 조선TOP3플러스</td><td>1주/매월 23일</td><td>72</td></tr><tr><td>KODEX 로봇액티브</td><td>1주/매월 26일</td><td>72</td></tr><tr><td>KODEX 전고체배터리ESS TOP2플러스</td><td>1주/매월 23일</td><td>66</td></tr></tbody></table></div></details></section>
+<section class='card'><h2>테마·장기 Thesis</h2><div class='tablewrap'><table><thead><tr><th>테마</th><th>등급</th><th>해석</th></tr></thead><tbody>
+<tr><td>AI</td><td>A</td><td>장기 투자 사이클 강함</td></tr><tr><td>반도체</td><td>A</td><td>메모리·AI 수요 강세</td></tr><tr><td>전력망</td><td>A-</td><td>데이터센터 전력 수요 유효</td></tr><tr><td>2차전지</td><td>C+</td><td>반등 중이나 구조적 회복 확인 전</td></tr><tr><td>배당·ETF</td><td>A</td><td>SPY·SCHD 중심 복리축</td></tr><tr><td>헬스케어·금</td><td>B+</td><td>방어축 역할</td></tr></tbody></table></div></section>
+<section class='card'><h2>오늘 체결·수량 변화</h2><ul><li><b>한화에어로스페이스:</b> 4주 전량 매도, 주당 925,000원. 평단 약 100만원 기준 약 -30만원 손실 확정.</li><li><b>포스코퓨처엠:</b> 11주 → 10주. 체결가와 실현손익 확인 불가.</li></ul></section>
+<section class='card'><h2>시나리오</h2><div class='tablewrap'><table><thead><tr><th>기간</th><th>기본</th><th>강화 조건</th><th>무효화 조건</th></tr></thead><tbody><tr><td>1~5거래일</td><td>상승 후 변동성</td><td>반도체 강세 지속</td><td>유가·금리 급등</td></tr><tr><td>1~3개월</td><td>상승 우위 박스권</td><td>메모리 실적 상향</td><td>AI 투자 둔화</td></tr><tr><td>6~12개월</td><td>장기 상승·중간 조정</td><td>AI·전력망 투자 지속</td><td>침체·인플레 재가속</td></tr></tbody></table></div></section>
+<section class='card'><h2>히스토리</h2><div class='tablewrap'><table><thead><tr><th>날짜</th><th>총자산</th><th>추정 원금</th><th>평가이익</th><th>수익률</th><th>점수</th></tr></thead><tbody><tr><td>2026-08-04</td><td>46,897,437원</td><td>37,911,758원</td><td class='pos'>+8,985,679원</td><td>23.7%</td><td>84</td></tr><tr><td>2026-08-03</td><td>49,401,951원</td><td>42,439,242원</td><td class='pos'>+6,962,709원</td><td>16.4%</td><td>82</td></tr><tr><td>2026-07-03</td><td>55,454,739원</td><td>38,403,732원</td><td class='pos'>+17,051,007원</td><td>44.3%</td><td>80</td></tr><tr><td>2026-06-12</td><td>52,698,104원</td><td>33,890,748원</td><td class='pos'>+18,807,356원</td><td>55.4%</td><td>79</td></tr></tbody></table></div></section>
+<section class='card'><h2>오늘 행동 원칙</h2><ol><li>반도체 급등 추격매수 금지.</li><li>SPY·SCHD·XLV·GLDM 자동매수 유지.</li><li>2차전지 수동 물타기 금지.</li><li>LS ELECTRIC은 비중부터 재점검.</li><li>현금은 조정장 대응용으로 유지.</li></ol></section>
+<footer class='muted'>ZIP 압축 해제 후 GitHub 저장소 최상단에서 전체 파일을 업로드하고 Commit하면 같은 주소가 갱신됩니다.</footer>
 </main></body></html>
